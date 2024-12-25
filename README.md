@@ -53,7 +53,8 @@ A Python-based web server that provides a web interface for simulating keypresse
     http://127.0.0.1
     Click on the buttons to simulate the configured keypresses.
 
-    Customize the button labels and hotkeys by modifying the button_config.json file and restarting the server.
+    Customize the button labels and hotkeys
+    by modifying the button_config.json file and restarting the server.
    ```
 
 
