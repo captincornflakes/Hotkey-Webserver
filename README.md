@@ -63,7 +63,9 @@ Customize the button labels and hotkeys by modifying the button_config.json file
 
 ##  Dependencies:
 Flask - Lightweight web framework for Python.
+
 pynput - Library to control and monitor keyboard events.
+
 Install dependencies with:
 
     pip install flask pynput
