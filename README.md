@@ -46,13 +46,14 @@ A Python-based web server that provides a web interface for simulating keypresse
    ```
    sudo python3 web_hotkey_server.py
     ```
+---
 ##  Open a browser and navigate to the server:
    
 http://127.0.0.1
 Click on the buttons to simulate the configured keypresses.
 
 Customize the button labels and hotkeys by modifying the button_config.json file and restarting the server.
-
+---
 ##  Project Structure:
     hotkey-web-server/
     ├── web_hotkey_server.py   # Main Python script
@@ -60,7 +61,7 @@ Customize the button labels and hotkeys by modifying the button_config.json file
     ├── templates/
     │   └── index.html         # HTML template for the web interface
     ├── static/  
-
+---
 ##  Dependencies:
 Flask - Lightweight web framework for Python.
 
