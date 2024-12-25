@@ -1,8 +1,0 @@
-[
-    { "label": "Toggle Stream", "hotkey": "ctrl+w" },
-    { "label": "Toggle Record", "hotkey": "ctrl+r" },
-    { "label": "Tiktok Scene 1", "hotkey": "ctrl+1" },
-    { "label": "Tiktok Scene 2", "hotkey": "ctrl+2" },
-    { "label": "Refresh Scene 1", "hotkey": "ctrl+3" },
-    { "label": "Refresh Scene 2", "hotkey": "ctrl+4" }
-]

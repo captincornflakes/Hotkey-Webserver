@@ -1,0 +1,18 @@
+[
+    {
+        "group": "Streaming / Recording",
+        "buttons": [
+            { "label": "Toggle Stream", "hotkey": "ctrl+w", "color": "success" },
+            { "label": "Toggle Record", "hotkey": "ctrl+r", "color": "danger" }
+        ]
+    },
+    {
+        "group": "Scene",
+        "buttons": [
+            { "label": "Tiktok Scene 1", "hotkey": "ctrl+1", "color": "info" },
+            { "label": "Tiktok Scene 2", "hotkey": "ctrl+2", "color": "info" },
+            { "label": "Refresh Scene 1", "hotkey": "ctrl+3", "color": "secondary" },
+            { "label": "Refresh Scene 2", "hotkey": "ctrl+4", "color": "secondary" }
+        ]
+    }
+]

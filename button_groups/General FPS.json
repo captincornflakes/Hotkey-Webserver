@@ -1,0 +1,12 @@
+[
+    {
+        "group": "Inventory",
+        "buttons": [
+            { "label": "Primary", "hotkey": "1", "color": "success" },
+            { "label": "Secondary", "hotkey": "2", "color": "danger" },
+            { "label": "Sidearm", "hotkey": "3", "color": "danger" },
+            { "label": "Other", "hotkey": "4", "color": "danger" },
+            { "label": "Other", "hotkey": "5", "color": "danger" }
+        ]
+    }
+]
