@@ -80,8 +80,12 @@ A Python-based web server that provides a web interface for simulating keypresse
     ```
 
  8. **Contributing**:
+    ```
     Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or feature requests.
+    ```
 
  9. **License**:
+    ```
     This project is licensed under the MIT License. See the LICENSE file for details.
+    ```
 
