@@ -31,14 +31,14 @@ A Python-based web server that provides a web interface for simulating keypresse
 4. **JSON**:
    ```
    [
-    { "label": "Start Stream", "hotkey": "shift+w" },
-    { "label": "Stop Stream", "hotkey": "ctrl+w" },
-    { "label": "Start Record", "hotkey": "shift+r" },
-    { "label": "Stop Record", "hotkey": "ctrl+r" },
-    { "label": "Tiktok Scene 1", "hotkey": "shift+1" },
-    { "label": "Tiktok Scene 2", "hotkey": "shift+2" },
-    { "label": "Refresh Scene 1", "hotkey": "ctrl+1" },
-    { "label": "Refresh Scene 2", "hotkey": "ctrl+2" }
+        { "label": "Start Stream", "hotkey": "shift+w" },
+        { "label": "Stop Stream", "hotkey": "ctrl+w" },
+        { "label": "Start Record", "hotkey": "shift+r" },
+        { "label": "Stop Record", "hotkey": "ctrl+r" },
+        { "label": "Tiktok Scene 1", "hotkey": "shift+1" },
+        { "label": "Tiktok Scene 2", "hotkey": "shift+2" },
+        { "label": "Refresh Scene 1", "hotkey": "ctrl+1" },
+        { "label": "Refresh Scene 2", "hotkey": "ctrl+2" }
     ]
 
     ```
