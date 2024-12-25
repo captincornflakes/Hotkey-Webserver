@@ -56,33 +56,29 @@ A Python-based web server that provides a web interface for simulating keypresse
    ```
 
 
-6. **Project Structure**:
-    ```php
+##  Project Structure:
+    php
     hotkey-web-server/
     ├── web_hotkey_server.py   # Main Python script
     ├── button_config.json     # Configuration file for buttons and hotkeys
     ├── templates/
     │   └── index.html         # HTML template for the web interface
-    ├── static/           
-    ```
+    ├── static/  
 
-7. **Dependencies**:
-   ```
+##  Dependencies:
     Flask - Lightweight web framework for Python.
     pynput - Library to control and monitor keyboard events.
     Install dependencies with:
-    ```
 
-    ```
     pip install flask pynput
-    ```
+    
 ---
-**Contributing**:
+## Contributing:
    
-    Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or feature requests.
+Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or feature requests.
   
 ---
-**License**:
+## License:
 
     This project is licensed under the MIT License. See the LICENSE file for details.
 
