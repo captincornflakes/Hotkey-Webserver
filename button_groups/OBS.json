@@ -9,10 +9,15 @@
     {
         "group": "Scene",
         "buttons": [
-            { "label": "Tiktok Scene 1", "hotkey": "ctrl+1", "color": "info" },
-            { "label": "Tiktok Scene 2", "hotkey": "ctrl+2", "color": "info" },
-            { "label": "Refresh Scene 1", "hotkey": "ctrl+3", "color": "secondary" },
-            { "label": "Refresh Scene 2", "hotkey": "ctrl+4", "color": "secondary" }
+            { "label": "Tiktok 1", "hotkey": "ctrl+1", "color": "info" },
+            { "label": "Tiktok 2", "hotkey": "ctrl+2", "color": "info" }
+        ]
+    },
+    {
+        "group": "Refresh",
+        "buttons": [
+            { "label": "Scene 1", "hotkey": "ctrl+3", "color": "secondary" },
+            { "label": "Scene 2", "hotkey": "ctrl+4", "color": "secondary" }
         ]
     }
 ]
