@@ -1,5 +1,3 @@
-# Hotkey-Webserver
- 
 # Hotkey Web Server
 
 A Python-based web server that provides a web interface for simulating keypresses based on configurable buttons. This project is perfect for controlling applications or workflows with hotkeys through a browser interface.
@@ -78,14 +76,14 @@ A Python-based web server that provides a web interface for simulating keypresse
     ```
     pip install flask pynput
     ```
-
- 8. **Contributing**:
-    ```
+---
+**Contributing**:
+   
     Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or feature requests.
-    ```
+  
+---
+**License**:
 
- 9. **License**:
-    ```
     This project is licensed under the MIT License. See the LICENSE file for details.
-    ```
+
 
