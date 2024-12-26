@@ -1,0 +1,14 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+.alert-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1050;
+}
+.narrow-button {
+    width: 50%;
+    min-width: 100px;
+}

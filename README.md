@@ -28,16 +28,30 @@ A Python-based web server that provides a web interface for simulating keypresse
 
 4. **JSON**:
    ```
-   [
-        { "label": "Start Stream", "hotkey": "shift+w" },
-        { "label": "Stop Stream", "hotkey": "ctrl+w" },
-        { "label": "Start Record", "hotkey": "shift+r" },
-        { "label": "Stop Record", "hotkey": "ctrl+r" },
-        { "label": "Tiktok Scene 1", "hotkey": "shift+1" },
-        { "label": "Tiktok Scene 2", "hotkey": "shift+2" },
-        { "label": "Refresh Scene 1", "hotkey": "ctrl+1" },
-        { "label": "Refresh Scene 2", "hotkey": "ctrl+2" }
+    [
+        {
+            "group": "Streaming / Recording",
+            "buttons": [
+                { "label": "Toggle Stream", "hotkey": "ctrl+w", "color": "success" },
+                { "label": "Toggle Record", "hotkey": "ctrl+r", "color": "danger" }
+            ]
+        },
+        {
+            "group": "Scene",
+            "buttons": [
+                { "label": "Tiktok 1", "hotkey": "ctrl+1", "color": "info" },
+                { "label": "Tiktok 2", "hotkey": "ctrl+2", "color": "info" }
+            ]
+        },
+        {
+            "group": "Refresh",
+            "buttons": [
+                { "label": "Scene 1", "hotkey": "ctrl+3", "color": "secondary" },
+                { "label": "Scene 2", "hotkey": "ctrl+4", "color": "secondary" }
+            ]
+        }
     ]
+
 
     ```
 
@@ -54,12 +68,20 @@ http://127.0.0.1 Click on the buttons to simulate the configured keypresses.
 Customize the button labels and hotkeys by modifying the button_config.json file and restarting the server.
 ---
 ##  Project Structure:
-    hotkey-web-server/
-    ├── web_hotkey_server.py   # Main Python script
-    ├── button_config.json     # Configuration file for buttons and hotkeys
-    ├── templates/
-    │   └── index.html         # HTML template for the web interface
-    ├── static/  
+    hotkey_web_server/
+    ├── button_groups/               # Directory containing button group configurations
+    │   ├── default.json             # Example button group configuration
+    │   └── another_config.json      # Another example configuration
+    ├── static/                      # Directory for static files (CSS, JS, images)
+    │   ├── css/
+    │   │   └── styles.css           # CSS file for custom styling
+    │   ├── js/
+    │   │   └── script.js            # JavaScript file for client-side functionality
+    ├── templates/                   # Directory for HTML templates
+    │   └── index.html               # Main HTML template for the web interface
+    ├── web_hotkey_server.py         # Main Python Flask server script
+    └── requirements.txt             # Python dependencies
+
 ---
 ##  Dependencies:
 Flask - Lightweight web framework for Python.
