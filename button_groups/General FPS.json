@@ -8,5 +8,12 @@
             { "label": "Other", "hotkey": "4", "color": "danger" },
             { "label": "Other", "hotkey": "5", "color": "danger" }
         ]
+    },
+    {
+        "group": "Other",
+        "buttons": [
+            { "label": "Map", "hotkey": "m", "color": "success" },
+            { "label": "inventory", "hotkey": "i", "color": "danger" }
+        ]
     }
 ]

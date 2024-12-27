@@ -16,7 +16,7 @@ A Python-based web server that provides a web interface for simulating keypresse
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/hotkey-web-server.git
+   git clone https://github.com/captincornflakes/hotkey-web-server.git
    cd hotkey-web-server
     ```
 
